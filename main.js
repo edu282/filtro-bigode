@@ -23,7 +23,7 @@ function modelLoaded()
     console.log('poseNet foi inicializado');
 }
 
-function gotPoses()
+function gotPoses(results)
 {
     if(results.length > 0)
     {
